@@ -1,5 +1,0 @@
-INDEX VERSION 1.134+C:\Users\User\OneDrive\바탕 화면\4-1\웹코보\hw\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-765202212.index
-3281153544.index
-3029687966.index
