@@ -1,0 +1,9 @@
+// 컴퓨터학과 20220745 김가은
+import java.util.Comparator;
+
+public class Comparator implements Comparator<Student> {
+    @Override
+    public int compare(Student a, Student b) {
+        return b.getId() - a.getId();  // 내림차순: b - a
+    }
+}

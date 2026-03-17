@@ -1,0 +1,15 @@
+// 컴퓨터학과 20220745 김가은
+import java.util.Comparator;
+
+public class SortByMajorNum implements Comparator<Student> {
+    @Override
+    public int compare(Student a, Student b) {
+        // 전공 오름차순
+        int deptCompare = a.getDept().compareTo(b.getDept());
+        if (deptCompare != 0) {
+            return deptCompare;
+        }
+        // 전공 같으면 학번 오름차순
+        return a.getId() - b.getId();
+    }
+}
